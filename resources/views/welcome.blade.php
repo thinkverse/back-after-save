@@ -8,9 +8,9 @@
 
     <title>Laravel</title>
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
-    <script src="{{ asset('js/alpine.js') }}" defer></script>
+    <script src="{{ mix('js/alpine.js') }}" defer></script>
 </head>
 
 <body class="antialiased">
